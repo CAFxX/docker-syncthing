@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM armv7/armhf-ubuntu:14.04
 MAINTAINER Joey Baker <joey@byjoeybaker.com>
 
 RUN useradd --no-create-home -g users --uid 1027 syncthing
